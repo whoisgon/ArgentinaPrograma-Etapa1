@@ -1,0 +1,5 @@
+procedure DibujarCuadradoDeLado3(azul){
+  repeat(3){
+    DibujarLinea3(azul)
+    Mover(Norte)}
+}

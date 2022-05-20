@@ -1,0 +1,4 @@
+program {
+  if (nroBolitas(Negro) < 5){
+    Poner(Negro)}
+  }

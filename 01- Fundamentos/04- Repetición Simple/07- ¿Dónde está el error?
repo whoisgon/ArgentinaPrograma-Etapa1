@@ -1,0 +1,5 @@
+procedure LineaRoja4() {
+  repeat(4) {
+    Poner(Rojo)
+    Mover(Norte)}
+}

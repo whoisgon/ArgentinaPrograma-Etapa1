@@ -1,0 +1,3 @@
+function hayBolitasAl(direccion, color){
+   Mover(direccion)
+  return (nroBolitas(color)> 0) }

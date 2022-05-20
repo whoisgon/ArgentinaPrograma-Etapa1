@@ -1,0 +1,8 @@
+function medallaSegunPuesto(puesto){
+  let medallas = ["nada","oro","plata","bronce"];
+  if (puesto >=4){
+    return "nada";
+  } else { 
+    return (medallas[puesto]);
+  }
+}

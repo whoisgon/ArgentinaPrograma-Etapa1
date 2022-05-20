@@ -1,0 +1,5 @@
+procedure MoverOeste5(){
+  repeat(5){
+    Mover(Oeste)
+  }
+}

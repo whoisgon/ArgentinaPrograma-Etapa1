@@ -1,0 +1,4 @@
+procedure PonerAl(direccion,color){
+  Mover(direccion)
+  Poner(color)
+  Mover(opuesto(direccion))}

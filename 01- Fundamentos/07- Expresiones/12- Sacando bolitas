@@ -1,0 +1,3 @@
+procedure SacarTodas(color){
+  SacarN(nroBolitas(color),color)
+}

@@ -1,0 +1,7 @@
+function escribirCartelito(dra,nombre,apellido,corto){
+  if (corto){
+    return dra + " " + apellido; 
+  } else{
+    return dra + " " + nombre + " " + apellido;
+  }
+}

@@ -1,0 +1,5 @@
+procedure SacarAzulConMiedo() {
+  if (hayBolitas(Azul)) {
+    Sacar(Azul)
+  } 
+}

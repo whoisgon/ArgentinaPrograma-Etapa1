@@ -1,0 +1,9 @@
+procedure Poner3(color) {
+  repeat(3) {
+    Poner(color)
+  }
+}
+program {
+  Poner3(Negro)
+  Poner3(Rojo)
+}

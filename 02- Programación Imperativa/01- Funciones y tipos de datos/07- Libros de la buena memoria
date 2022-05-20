@@ -1,0 +1,3 @@
+function leGustaLeer(libros){
+  return libros > 20;
+}

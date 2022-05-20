@@ -1,0 +1,7 @@
+function perimetroCirculo(radio){
+  return 3.14159265358979 * 2 * radio;
+}
+
+function areaCirculo(radio){
+  return 3.14159265358979* radio * radio;
+}

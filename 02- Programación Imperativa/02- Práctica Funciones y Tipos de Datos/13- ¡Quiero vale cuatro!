@@ -1,0 +1,8 @@
+function valorCantoTruco(canto){
+  if (canto === "truco"){
+    return 2;
+  } else if(canto === "retruco"){
+    return 3;
+  } else { canto === "valeCuatro"
+          return 4; }
+}

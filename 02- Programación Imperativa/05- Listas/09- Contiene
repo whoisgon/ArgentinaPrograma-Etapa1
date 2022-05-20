@@ -1,0 +1,3 @@
+function contiene(lista,elemento){
+  return posicion(lista,elemento)>= 0;
+}

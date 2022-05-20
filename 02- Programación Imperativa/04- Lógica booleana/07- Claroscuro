@@ -1,0 +1,3 @@
+function tieneContraste(letra, fondo){
+  return esTonoClaro(fondo) && !esTonoClaro(letra) || esTonoClaro(letra) && !esTonoClaro(fondo);
+}

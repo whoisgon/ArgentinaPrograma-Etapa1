@@ -1,0 +1,4 @@
+function hayBolitasAl(direccion, color) {
+  Mover(direccion)
+  return (hayBolitas(color))
+}

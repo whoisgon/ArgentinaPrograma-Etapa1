@@ -1,0 +1,7 @@
+procedure Linea(direccion, color, longitud) {
+  repeat(longitud) {
+    Poner(color)
+    Mover(direccion)
+  }
+  MoverN(longitud,opuesto(direccion))
+}

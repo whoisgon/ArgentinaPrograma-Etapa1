@@ -1,0 +1,3 @@
+function sePuedeConcentrar(bebida,temperatura,programando){
+return bebida === "té" && temperatura >= 95 && programando || bebida === "mate" && temperatura ===80 && programando;
+}

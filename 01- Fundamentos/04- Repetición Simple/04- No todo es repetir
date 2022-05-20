@@ -1,0 +1,7 @@
+procedure Poner3AlNoreste() {
+  Mover(Norte)
+  Mover(Este)
+  repeat(3){
+  Poner(Negro)
+ }
+ }

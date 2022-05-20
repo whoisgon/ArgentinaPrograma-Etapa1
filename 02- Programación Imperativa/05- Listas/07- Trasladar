@@ -1,0 +1,4 @@
+function trasladar(unaLista, otraLista, elemento){
+  remover(unaLista,elemento)
+  agregar(otraLista,elemento);
+}

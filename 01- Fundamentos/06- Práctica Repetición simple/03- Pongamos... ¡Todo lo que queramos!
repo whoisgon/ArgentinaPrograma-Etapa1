@@ -1,0 +1,5 @@
+procedure PonerN(cantidad,color){
+  repeat(cantidad){
+    Poner(color)
+  }
+}

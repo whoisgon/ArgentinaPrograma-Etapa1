@@ -1,0 +1,3 @@
+function rojoEsDominante(){
+  return (nroBolitas(Rojo) > todasExcepto(Rojo))
+  }

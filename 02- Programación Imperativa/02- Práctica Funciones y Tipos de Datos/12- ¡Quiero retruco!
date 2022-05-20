@@ -1,0 +1,6 @@
+function puntosDeEnvidoTotales(valor1, palo1, valor2, palo2){
+  if (palo1 === palo2) {
+   return valorEnvido(valor1) + valorEnvido(valor2) +20;
+ } else {
+return Math.max(valorEnvido(valor1), valorEnvido(valor2));}
+}

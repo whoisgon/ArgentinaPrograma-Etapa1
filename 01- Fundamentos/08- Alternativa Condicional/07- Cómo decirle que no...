@@ -1,0 +1,4 @@
+procedure AsegurarUnaBolitaVerde(){
+  if (not hayBolitas(Verde)){
+    Poner(Verde)}
+}

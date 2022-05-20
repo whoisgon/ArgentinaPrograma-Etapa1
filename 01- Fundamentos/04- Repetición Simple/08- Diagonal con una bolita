@@ -1,0 +1,6 @@
+procedure Diagonal4Azul(){
+  repeat(4){
+  Poner(Azul)
+  Mover(Norte)
+  Mover(Este)}
+}

@@ -1,0 +1,2 @@
+procedure CaminarDesconfiado(pasos){
+  MoverN(pasos div 2,opuesto(Oeste))}

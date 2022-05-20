@@ -1,0 +1,14 @@
+ program{
+   Poner(Azul)
+   Mover(Norte)
+   Poner(Azul)
+   Mover(Norte)
+   Poner(Azul)
+   Mover(Sur)
+   Mover(Este)
+   Poner(Azul)
+   Mover(Sur)
+   Poner(Azul)
+   Mover(Este)
+   Poner(Azul)
+}

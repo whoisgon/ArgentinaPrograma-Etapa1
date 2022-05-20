@@ -1,0 +1,19 @@
+procedure PonerCuatroBolitas(){
+  Poner(Azul)
+  Poner(Negro)
+  Poner(Rojo)
+  Poner(Verde)
+}
+procedure DibujarLineaColorida(){
+  PonerCuatroBolitas()
+  Mover(Este)
+  PonerCuatroBolitas()
+  Mover(Este)
+  PonerCuatroBolitas()
+  Mover(Este)
+  PonerCuatroBolitas()
+  IrAlBorde(Oeste)
+}
+program{
+  DibujarLineaColorida()
+}

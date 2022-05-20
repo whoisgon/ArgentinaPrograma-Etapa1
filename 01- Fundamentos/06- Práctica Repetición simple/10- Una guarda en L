@@ -1,0 +1,16 @@
+procedure Linea1(){
+  repeat(2){
+    PonerAzulejo()
+    Mover(Este)}
+  PonerAzulejo()
+  MoverN(2,Oeste)
+}
+procedure Linea2(){
+  repeat(2){
+    Mover(Norte)
+    PonerAzulejo()}
+}
+procedure GuardaEnL(){
+  Linea1()
+  Linea2()
+  MoverN(2,Sur)}

@@ -1,0 +1,6 @@
+procedure Fecha(dia,mes,anio){
+  PonerN(dia,Azul)
+  Mover(Este)
+  PonerN(mes,Verde)
+  Mover(Este)
+  PonerN(anio,Negro)}

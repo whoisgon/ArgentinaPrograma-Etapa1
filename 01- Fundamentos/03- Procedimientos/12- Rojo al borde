@@ -1,0 +1,8 @@
+procedure RojoAlBorde(){
+ IrAlBorde(Norte)
+  IrAlBorde(Oeste)
+  Poner(Rojo)
+  }
+program{
+  RojoAlBorde()
+}

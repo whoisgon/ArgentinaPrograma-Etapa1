@@ -1,0 +1,3 @@
+function cuantoCuesta(pulgada, gb){
+  return (pulgada* 60) + (gb* 200) + 1000;
+}

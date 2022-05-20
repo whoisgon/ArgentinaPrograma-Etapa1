@@ -1,0 +1,13 @@
+procedure DibujarLineaRoja3(){
+  repeat(2){
+    Mover(Este)
+    Poner(Rojo)}
+  VolverAtras()
+  Poner(Rojo)}
+procedure DibujarLineaAzul3(){
+  repeat(2){
+    Mover(Este)
+    Poner(Azul)}
+  VolverAtras()
+  Poner(Azul)}
+

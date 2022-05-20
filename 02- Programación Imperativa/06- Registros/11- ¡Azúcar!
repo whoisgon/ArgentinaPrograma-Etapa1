@@ -1,0 +1,3 @@
+function endulzarMenu(menú){
+  agregar(menú.postre.ingredientes,"azúcar");
+}

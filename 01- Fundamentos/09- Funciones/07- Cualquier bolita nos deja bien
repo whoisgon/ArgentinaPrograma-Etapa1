@@ -1,0 +1,3 @@
+function hayAlgunaBolita(){
+  return (hayBolitas(Negro) || hayBolitas(Verde) || hayBolitas(Rojo) || hayBolitas(Azul))
+}

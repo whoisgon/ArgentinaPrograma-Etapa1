@@ -1,0 +1,3 @@
+function nroBolitasTotal() {
+  return (nroBolitas(Azul) + nroBolitas(Negro) + nroBolitas(Rojo) + nroBolitas(Verde))
+}

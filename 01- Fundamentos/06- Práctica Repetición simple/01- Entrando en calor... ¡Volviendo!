@@ -1,0 +1,6 @@
+procedure Diagonal4AzulVolviendo(){
+Diagonal4Azul()
+repeat(4){
+Mover(Sur)
+Mover(Oeste)}
+}

@@ -1,0 +1,5 @@
+procedure PonerAzulLejos(){
+  repeat(4){
+    Mover(Este)}
+  Poner(Azul)
+  }

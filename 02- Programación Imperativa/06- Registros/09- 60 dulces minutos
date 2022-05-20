@@ -1,0 +1,7 @@
+function agregarAPostresRapidos(listaDePostres,postre){
+   if (postre.tiempoDeCoccion <= 60){
+   agregar (listaDePostres, postre);
+ } else {
+   0
+ }
+}

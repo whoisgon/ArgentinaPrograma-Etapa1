@@ -1,0 +1,3 @@
+function puedeSubirse(altura,acompañada,afeccion){
+  return (altura >=1.5 && !afeccion) || (altura >= 1.2 && acompañada && !afeccion);
+}

@@ -1,0 +1,3 @@
+function todasExcepto(color){
+  return (nroBolitasTotal() - nroBolitas(color))}
+    

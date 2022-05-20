@@ -1,0 +1,2 @@
+function temperaturaDePlaneta(planet){
+  return planet.nombre + " tiene una temperatura promedio de " + planet.temperaturaPromedio + " grados"}

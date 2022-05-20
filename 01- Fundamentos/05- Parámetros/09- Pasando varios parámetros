@@ -1,0 +1,9 @@
+program{ 
+  DibujarLinea3(Verde,Este)
+  Mover(Este)
+  DibujarLinea3(Rojo,Norte)
+  Mover(Norte)
+  DibujarLinea3(Negro,Oeste)
+  Mover(Oeste)
+  DibujarLinea3(Azul,Sur)
+}

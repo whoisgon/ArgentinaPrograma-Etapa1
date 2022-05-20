@@ -1,0 +1,3 @@
+procedure Ele(direccion){
+  Linea(direccion,Azul,3)
+  Linea(siguiente(direccion),Azul,3)}

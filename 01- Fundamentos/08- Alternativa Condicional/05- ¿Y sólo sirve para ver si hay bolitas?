@@ -1,0 +1,4 @@
+program {
+  if (puedeMover(Este)){
+    Mover(Este)}
+    }

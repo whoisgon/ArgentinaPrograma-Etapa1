@@ -1,0 +1,12 @@
+procedure Flecha(direccion){
+Mover(direccion)
+  Poner(Rojo)
+  Mover(opuesto(direccion))
+Mover(previo(direccion))
+Poner(Rojo)
+Mover(siguiente(direccion))
+Mover(opuesto(direccion))
+Mover(direccion)
+Mover(siguiente(direccion))
+Poner(Rojo)
+Mover(previo(direccion))}

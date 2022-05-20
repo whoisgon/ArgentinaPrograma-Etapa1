@@ -1,0 +1,6 @@
+procedure DiaDeLaMemoria(){
+  PonerN(24,Azul)
+  Mover(Este)
+  PonerN(3,Verde)
+  Mover(Este)
+  PonerN(1976,Negro)}

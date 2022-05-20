@@ -1,0 +1,5 @@
+procedure LineaEstePesada(peso,color,longitud){
+repeat(longitud){
+  PonerN(peso,color)
+  Mover(Este)}
+MoverN(longitud,Oeste)}

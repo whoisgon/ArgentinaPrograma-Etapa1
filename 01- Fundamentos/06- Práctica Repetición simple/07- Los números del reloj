@@ -1,0 +1,13 @@
+procedure DibujarReloj(radio){
+  MoverN(radio,Norte)
+  PonerN(12,Rojo)
+  MoverN(radio,Sur)
+  MoverN(radio,Este)
+  PonerN(3,Rojo)
+  MoverN(radio,Oeste)
+  MoverN(radio,Sur)
+  PonerN(6,Rojo)
+  MoverN(radio,Norte)
+  MoverN(radio,Oeste)
+  PonerN(9,Rojo)
+  MoverN(radio,Este)}

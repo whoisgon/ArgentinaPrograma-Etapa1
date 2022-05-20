@@ -1,0 +1,3 @@
+function escribirCartelito(dra,nombre,apellido){
+  return dra + " " + nombre + " " + apellido;
+}

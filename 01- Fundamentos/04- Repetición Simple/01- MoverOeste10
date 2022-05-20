@@ -1,0 +1,12 @@
+procedure MoverOeste10(){
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+}

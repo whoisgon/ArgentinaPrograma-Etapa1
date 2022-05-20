@@ -1,0 +1,7 @@
+function decisionConMoneda(moneda,pizzas,empanadas){
+  if (moneda ==="cara"){
+    return pizzas;
+  } else {
+    return empanadas;
+  }
+}

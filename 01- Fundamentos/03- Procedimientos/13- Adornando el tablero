@@ -1,0 +1,15 @@
+procedure PonerGuirnalda(){
+Poner3Verdes()
+Poner3Rojas()
+}
+procedure DecorarTablero(){
+  IrAlBorde(Norte)
+  IrAlBorde(Oeste)
+  PonerGuirnalda()
+  IrAlBorde(Norte)
+  IrAlBorde(Este)
+  PonerGuirnalda()
+  }
+program{
+  DecorarTablero()
+}

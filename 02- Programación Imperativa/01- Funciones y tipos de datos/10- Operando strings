@@ -1,0 +1,3 @@
+function longitudNombreCompleto(nombre, apellido){
+  return longitud(nombre + " "+ apellido) 
+}

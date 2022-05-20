@@ -1,0 +1,13 @@
+function gananciaPositiva(conjunto){
+  let ganancias=0;
+  for (let con of conjunto){
+    if (con.ganancia>0){
+    ganancias = ganancias + con.ganancia
+    }
+  }
+  return ganancias;
+}
+
+function promedioGananciasPositivas(conjunto){
+  return gananciaPositiva(conjunto)/cantidadDeBalancesPositivos(conjunto) ;
+}

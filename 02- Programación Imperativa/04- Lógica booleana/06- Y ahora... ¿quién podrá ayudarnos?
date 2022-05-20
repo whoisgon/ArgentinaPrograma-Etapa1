@@ -1,0 +1,7 @@
+function estaCerrado(esFeriado, dia, horario) {
+  return esFeriado || esFinDeSemana(dia) || !dentroDeHorarioBancario(horario); 
+}
+  
+function esFinDeSemana(dia){
+    return dia === "sabado" || dia === "domingo";
+  }

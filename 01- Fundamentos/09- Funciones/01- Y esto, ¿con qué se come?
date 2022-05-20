@@ -1,0 +1,7 @@
+procedure MoverSegunBolitas() {
+  if (nroBolitas(Azul) + nroBolitas(Negro) + nroBolitas(Rojo) + nroBolitas(Verde) > 10) {
+    Mover(Este)
+  } else {
+    Mover(Norte)
+  }
+}

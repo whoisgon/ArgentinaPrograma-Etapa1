@@ -1,0 +1,11 @@
+procedure DibujarLineaNegra3(){
+  repeat(2){
+    Mover(Este)
+    Poner(Negro)
+  }
+  VolverAtras()
+  Poner(Negro)
+}
+program{
+  DibujarLineaNegra3()
+}

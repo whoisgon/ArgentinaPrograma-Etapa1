@@ -1,0 +1,10 @@
+ procedure DibujarDosPuntas() {
+   DibujarPuntaNegra()
+   Mover(Este)
+   Mover(Norte)
+   Mover(Norte)
+   DibujarPuntaNegra()
+}
+program{
+  DibujarDosPuntas()
+}

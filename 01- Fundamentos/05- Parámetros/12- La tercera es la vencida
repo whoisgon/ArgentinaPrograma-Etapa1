@@ -1,0 +1,6 @@
+procedure Triada(rojo,verde,azul){
+ Poner(rojo)
+  Mover(Este)
+  Poner(verde)
+  Mover(Este)
+  Poner(azul)}

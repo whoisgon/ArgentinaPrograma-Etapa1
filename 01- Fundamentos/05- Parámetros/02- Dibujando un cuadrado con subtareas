@@ -1,0 +1,9 @@
+procedure DibujarCuadradoNegroDeLado3(){
+  repeat(2){
+    DibujarLineaNegra3()
+    Mover(Norte)}
+  DibujarLineaNegra3()
+  }
+program{
+  DibujarCuadradoNegroDeLado3()
+}

@@ -1,0 +1,24 @@
+class Sobreviviente
+  
+  def initialize
+    @energia=1000
+  end
+  
+  def energia
+    @energia
+  end
+  def atacar!(zombie,
+    puntos)
+    zombie.recibir_danio!(puntos)
+  end
+  def ataque_masivo!(caminantes)
+    caminantes.each{|caminante| atacar!(caminante,15)}
+  end
+end
+juliana = Sobreviviente.new
+anastasia = Sobreviviente.new
+  
+
+
+caminantes = []
+20.times{ caminantes.push (Zombi.new)}

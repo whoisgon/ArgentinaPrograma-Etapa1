@@ -1,0 +1,15 @@
+class Colectivo<MedioDeTransporte
+  def initialize
+    @combustible=100
+    @pasajeros=0
+  end
+  def entran?(cant)
+    self.maximo_personas >= (cant)
+  end
+  def maximo_personas
+    40
+  end
+  def recorrer!(km)
+    @combustible=@combustible-(km)*2
+   end
+end

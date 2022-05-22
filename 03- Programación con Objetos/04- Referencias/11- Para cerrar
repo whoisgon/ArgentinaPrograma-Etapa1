@@ -1,0 +1,45 @@
+module Jor
+  def self.plato_del_dia=(un_plato)
+    @plato_del_dia = un_plato
+  end
+  
+  def self.picantear!
+    @plato_del_dia.agregar_picante!5
+  end
+end
+
+module Fideos
+  @ajies = 0
+  
+  def self.picantes?
+    @ajies > 2
+  end
+  
+  def self.descartar_la_salsa!
+    @ajies = 0
+  end
+    
+    def self.agregar_picante!(unos_ajies)
+      @ajies += unos_ajies
+    end
+    
+    def self.quitar_picante!(unos_ajies)
+      @ajies -= unos_ajies
+    end
+    
+    def self.ajies
+      @ajies
+    end
+    
+  end
+
+module Luchi
+  
+  def self.suavizar!(un_plato,unos_ajies)
+    if un_plato.ajies > 10
+      un_plato.descartar_la_salsa!
+    else 
+      un_plato.quitar_picante! unos_ajies
+    end
+  end
+end

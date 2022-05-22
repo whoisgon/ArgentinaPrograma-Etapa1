@@ -1,0 +1,8 @@
+class Colectivo<MedioDeTransporte
+  def maximo_personas
+    20
+  end
+  def recorrer!(km)
+    @combustible=@combustible-(km)*2
+   end
+end

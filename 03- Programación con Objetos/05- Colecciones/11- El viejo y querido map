@@ -1,0 +1,13 @@
+module Juegoteca
+
+  @juegos=[CarlosDuty,TimbaElLeon,Metroide]
+  def self.juegos
+    @juegos
+    end
+  def self.juegos_violentos
+    juegos_violentos=juegos.select{|juego| juego.violento?}
+  end
+  def self.dificultad_violenta
+    juegos_violentos.map{|juego| juego.dificultad}
+  end
+end

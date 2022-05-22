@@ -1,0 +1,10 @@
+module Juliana
+  @energia=1000
+  def self.energia
+    @energia
+    end
+  def self.atacar!(zombie,
+    puntos)
+    zombie.recibir_danio!(puntos)
+    end
+end

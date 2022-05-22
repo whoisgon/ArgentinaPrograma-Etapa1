@@ -1,0 +1,4 @@
+Fito.amigo = Juli
+AbueloGervasio.nieto = Juli
+3.times {AbueloGervasio.alimentar_nieto!}
+Fito.es_feliz_como_su_amigo?

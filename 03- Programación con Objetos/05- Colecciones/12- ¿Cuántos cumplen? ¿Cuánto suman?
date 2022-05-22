@@ -1,0 +1,13 @@
+module Juegoteca
+
+  @juegos=[CarlosDuty,TimbaElLeon,Metroide]
+  def self.juegos
+    @juegos
+    end
+  def self.juegos_violentos
+    juegos_violentos=juegos.select{|juego| juego.violento?}
+  end
+  def self.promedio_de_violencia
+    juegos_violentos.sum{|juego| juego.dificultad}/juegos_violentos.count{|juego| juego.violento?}
+  end
+end

@@ -1,0 +1,16 @@
+interfaz_pepita = %w(
+energia
+cantar!
+comer_lombriz!
+volar_en_circulos!
+)
+
+interfaz_norita = %w(
+comer_lombriz!
+volar_en_circulos!
+cantar!
+)
+
+interfaz_mercedes = %w(
+cantar!
+)

@@ -1,0 +1,23 @@
+class Zombi
+  def initialize(salud)
+    @salud = (salud)
+  end
+  
+  def gritar
+   "¡agrrrg!"
+    end 
+  def salud
+    @salud
+    end
+  def sabe_correr?
+    FALSE
+    end
+  def recibir_danio!(
+    puntos)
+    @salud=[(@salud-=(2*puntos)),0].max
+   end 
+  def sin_vida? 
+    @salud==0 
+  end
+
+end
